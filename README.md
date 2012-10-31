@@ -14,7 +14,7 @@ Details of the competition at http://couchsurfing.org/contest.
 * Sort entries by likes, views, duration and title
 * Order entries in ascending or descending order
 * Shows entries that are repeated on the contest page
-* Shows page l
+* Shows page load time in footer for benchmarking
 
 ## Project Information
 
