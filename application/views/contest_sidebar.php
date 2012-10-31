@@ -56,7 +56,7 @@
    <div id="border_container" class="grid_3">
    <div id="disclaimer" class="grid_3">
        This leaderboard is a covenience tool developed for personal use. I do not hold any rights to the CouchSurfing 
-       brand name, nor am I associated in any manner with the same.  Code will be made open-source. ---- Compliments 
+       brand name, nor am I associated in any manner, except membership, with the same.  Code will be made open-source. --- Compliments 
        accepted at <i>adisin@stanford.edu</i>.
    </div><!-- End disclaimer -->
    </div> <!-- End border_container -->

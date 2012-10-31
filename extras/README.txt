@@ -1,1 +1,1 @@
-This directory contains or will contain files to which the scripts need write-permission. Ensure that the directory is made writable on the server(in this case, specified in the Boxfile).
+This directory contains or will contain files to which the scripts need write-permission. Ensure that the directory is made writable on the server (in this case, specified in the Boxfile).
