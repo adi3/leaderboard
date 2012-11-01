@@ -52,11 +52,20 @@
    </div><!-- End cpanel -->
    </div> <!-- End border_container -->
    
+   <!-- Section linked to github repo -->       
+   <div id="border_container" class="grid_3">
+   <div id="cpanel" class="grid_3">
+       <div id="github" class="grid_3">
+       		<a href="https://github.com/adi3/leaderboard" target="_blank"><?= img("resources/github.png"); ?></a>
+       </div>
+   </div><!-- End cpanel -->
+   </div> <!-- End border_container -->
+   
    <!-- Begin disclaimer -->
    <div id="border_container" class="grid_3">
    <div id="disclaimer" class="grid_3">
        This leaderboard is a covenience tool developed for personal use. I do not hold any rights to the CouchSurfing 
-       brand name, nor am I associated in any manner, except membership, with the same.  Code will be made open-source. --- Compliments 
+       brand name, nor am I associated in any manner, except membership, with the same.  Code has been made open-source. --- Compliments 
        accepted at <i>adisin@stanford.edu</i>.
    </div><!-- End disclaimer -->
    </div> <!-- End border_container -->

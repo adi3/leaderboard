@@ -146,7 +146,7 @@ hr{
     width:200px;
 }
 
-#repeats{
+#repeats, #github{
     width: 170px;
     height: 50px;
     margin-left: 24px;
@@ -155,7 +155,7 @@ hr{
     margin-top: 20px;
 }
 
-#repeats:hover img{
+#repeats:hover img, #github:hover img{
     cursor:pointer;
     margin-left:1px;
     margin-top:1px;

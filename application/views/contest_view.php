@@ -11,7 +11,7 @@
         <?= link_tag("resources/icon.ico", "shortcut icon", "image/ico") ?>
         
         <meta name="robots" content="no-cache" />
-        <meta name="description" content="Web App for tracking ranks of CouchSurfing video contest entries" />
+        <meta name="description" content="Web App for tracking ranks of this year's CouchSurfing video contest entries" />
         <meta name="keywords" content="YouTube, CouchSurfing, video contest, ranks, sort" />
     </head>
     
