@@ -10,7 +10,7 @@
        <div id="update" class="grid_3">    
            <a href="<?= site_url('') ?>"><?= img("resources/update.png"); ?></a>
        </div>
-       <div id="update_title" class="grid_3">* If app fails to display all data, press this button.</div>
+       <div id="update_title" class="grid_3">* Scroll to the bottom. If app fails to display all data, press this button.</div>
    </div><!-- End cpanel -->
    </div> <!-- End border_container -->
    
