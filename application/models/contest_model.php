@@ -167,8 +167,8 @@ class Contest_model extends CI_Model {
         
         $table[$id]['title'] = $results['entry']['title']['$t'];
         $table[$id]['views'] = $results['entry']['yt$statistics']['viewCount'];
-        $table[$id]['duration'] = $this->_format_duration(
-                                    $results['entry']['media$group']['yt$duration']['seconds']);
+        $table[$id]['duration'] = $results['entry']['media$group']['yt$duration']['seconds'];
+        
         $table[$id]['link'] = $id;
     }
 
@@ -195,6 +195,7 @@ class Contest_model extends CI_Model {
         }
         
         $this->_sort_results_order($arr, $order, $property);
+        $this->_format_durations($arr);
         return $arr;
     }
     
@@ -265,18 +266,24 @@ class Contest_model extends CI_Model {
     }
 
     /**
-     * Receives a string of time in seconds and converts it 
+     * Iterates thrugh the referenced array and for each the 
+     * duration entries, converts the string of time in seconds 
      * to a string of the format mm:ss for easy readability.
+     * NOTE: The time string is not stored preformatted because
+     * it hinders subsequent sorting.
      * 
      * @access  private
      * @param   string     time in seconds
      * @return  string     time in mm:ss format     
      */
-    function _format_duration($duration){
-        $minutes = intval($duration / 60);
-        $seconds = intval($duration % 60);
-        if (strlen($seconds) == 1) $seconds = "0" . $seconds;
-        return ($minutes.":".$seconds);
+    function _format_durations(&$arr){
+        for($i=0; $i < count($arr); $i++){
+            $duration = $arr[$i]['duration']; 
+            $minutes = intval($duration / 60);
+            $seconds = intval($duration % 60);
+            if (strlen($seconds) == 1) $seconds = "0" . $seconds;
+            $arr[$i]['duration'] = $minutes.":".$seconds;
+      }
     }
     
     /**
