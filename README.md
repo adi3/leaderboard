@@ -29,6 +29,7 @@ Details of the competition at http://couchsurfing.org/contest.
 * CodeIgniter Framework
 * Eclipse IDE
 * Pagoda Box, Git
+* YouTube API
 
 ### Repository
 
