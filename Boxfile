@@ -1,11 +1,12 @@
-web1: #component type & number
-  name: leaderboard           #component settings
+--- 
+db1: 
+  name: main
+web1: 
+  name: leaderboard
+  php_extensions: 
+    - mysql
   shared_writable_dirs: 
     - application/cache
     - application/logs
     - extras
-  php_extensions:
-    - mysql
-     
-db1: #component type & number 
-  name: main #component settings
+    - github

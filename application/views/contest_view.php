@@ -30,6 +30,7 @@
        <div id="footer" class="container_12">Copyright 2012 | Adi | Page loaded in {elapsed_time} sec</div>
        <!-- End footer info --> 
     
+    <?php include_once('contest_analytics.php') ?>
     </body>
 </html>
 
@@ -53,6 +54,8 @@
                     data: null,
                     cache: false,
                     success: function(msg){
+                       var empty_result = '<br /><hr /><br />';
+                       if(msg == empty_result) msg += "<i>No repeated entries found!</i>";
                        $("#repeat_links").html(msg);
                        flag = true;                       
                        $("#repeat_links").slideDown('slow');

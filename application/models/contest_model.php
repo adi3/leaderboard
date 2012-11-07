@@ -114,6 +114,7 @@ class Contest_model extends CI_Model {
                      file_get_contents(
                         "http://gdata.youtube.com/feeds/api/videos/".$id."?v=2&alt=json"), true);
         
+        if(!$results['entry']) return;
         $this->_set_values($id, $table, $results);
     }
 
