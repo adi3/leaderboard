@@ -39,7 +39,6 @@ This repository only holds files that are modified in or added to the standard C
 
 This leaderboard is a covenience tool developed for personal use. I do not hold any rights to the CouchSurfing brand name, 
 nor am I associated in any manner, except membership, with the same.
-oad time in footer for benchmarking
 
 ## Developers
 
