@@ -1,7 +1,7 @@
 # [LEADERBOARD] (http://leaderboard.pagodabox.com)
 
 Web app for tracking ranks of this year's CouchSurfing video contest entries.
-Built with CodeIgniter, this app uses YouTube API to retrieve data for all entries displayed on the official contest page (50+ 
+Built with CodeIgniter, this app uses YouTube API to retrieve data for all entries displayed on the official contest page (80+ 
 as of 11/08/2012), and gives users the option to rank them according to likes, views, duration (length) and title. A Show-Repeated 
 feature keeps track of all entries that are displayed more than once, perhaps erroneously, on the contest page.
 Details of the competition at http://couchsurfing.org/contest.
