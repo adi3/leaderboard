@@ -12,7 +12,9 @@
        <a href="http://youtube.com/watch/?v=<?= $link ?>" target="_blank" >
        <div id="entry">
            <!-- Thumbnail of the video -->
-           <div id="thumb" class="grid_2"><?= img("http://img.youtube.com/vi/".$link."/2.jpg"); ?></div>
+           <div id="thumb" class="grid_2">
+               <?= img(Array('src' => 'http://img.youtube.com/vi/'.$link.'/2.jpg', 'width' => '120', 'height' => '90')); ?>
+           </div>
        
            <div id="entry_data" class="grid_4">
                <!-- Rank as determined by sort order and property -->
